@@ -5,8 +5,12 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class YourPluginMain extends JavaPlugin {
 
+    /*Created 
+    private FileManager yourconfignameorvalue;
+    */
+    
     private FileManager config;
-
+    
 
     private FileManager playerdata;
 
@@ -24,10 +28,19 @@ public class YourPluginMain extends JavaPlugin {
     }
 
     public void registerConfigs() {
+        /*Register your config
+        this.yourconfignameorvalue = new FileManager(this, "yourconfignameorvalue");
+        */
+        
         this.config = new FileManager(this, "config");
         this.playerdata = new FileManager(this, "data/playerdata");
     }
 
+    /*Created Metodo para llamar ne otra clase
+    public FileManager getYpurConfigNameORValue() {
+        return this.yourconfignameorvalue;
+    }
+    */
     public FileManager getConfig() {
         return this.config;
     }

@@ -36,7 +36,7 @@ public class YourPluginMain extends JavaPlugin {
         this.playerdata = new FileManager(this, "data/playerdata");
     }
 
-    /*Created Metodo para llamar ne otra clase
+    /*Created Method to call in another class
     public FileManager getYpurConfigNameORValue() {
         return this.yourconfignameorvalue;
     }

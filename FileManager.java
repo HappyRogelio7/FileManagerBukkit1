@@ -15,7 +15,7 @@ public class FileManager extends YamlConfiguration {
      Code by: HappyRogelio7
      Github: https://github.com/HappyRogelio7
      License: MIT
-     Link: https://github.com/HappyRogelio7/getMsgColorSpigotClass1
+     Link: https://github.com/HappyRogelio7/FileManagerBukkit1
      */
     
     /*

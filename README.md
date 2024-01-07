@@ -12,7 +12,7 @@ FileManagerBukkit1
 ## Using:
 ```java
 
-package com.github.happyrogelio7.filemanagerbukkit1;
+package com.github.happyuky7.filemanagerbukkit1;
 
 import com.github.happyrogelio7.filemanagerbukkit1.FileManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -70,7 +70,7 @@ public class YourPluginMain extends JavaPlugin {
 
 
 ```java
-package com.github.happyrogelio7.filemanagerbukkit1;
+package com.github.happyuky7.filemanagerbukkit1;
 
 import java.io.File;
 import java.io.IOException;
@@ -86,7 +86,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class FileManager extends YamlConfiguration {
 
     /*
-    FileManager Link: https://github.com/HappyRogelio7/FileManagerBukkit1
+    FileManager Link: https://github.com/Happyuky7/FileManagerBukkit1
     */
 
     private final String fileName;

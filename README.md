@@ -14,7 +14,7 @@ FileManagerBukkit1
 
 package com.github.happyuky7.filemanagerbukkit1;
 
-import com.github.happyrogelio7.filemanagerbukkit1.FileManager;
+import com.github.happyuky7.filemanagerbukkit1.FileManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class YourPluginMain extends JavaPlugin {

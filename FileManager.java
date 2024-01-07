@@ -12,14 +12,14 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class FileManager extends YamlConfiguration {
 
     /*
-     Code by: HappyRogelio7
-     Github: https://github.com/HappyRogelio7
+     Code by: Happyuky7
+     Github: https://github.com/Happyuky7
      License: MIT
-     Link: https://github.com/HappyRogelio7/FileManagerBukkit1
+     Link: https://github.com/Happyuky7/FileManagerBukkit1
      */
     
     /*
-    FileManager Link: https://github.com/HappyRogelio7/FileManagerBukkit1
+    FileManager Link: https://github.com/Happyuky7/FileManagerBukkit1
     */
 
     private final String fileName;

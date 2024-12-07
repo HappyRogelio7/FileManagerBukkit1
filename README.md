@@ -1,13 +1,10 @@
 # FileManagerBukkit1
 FileManagerBukkit1
 
-[My website](https://happyrogelio7.xyz), My website 
+[My website](https://happy7.xyz), My website 
 
 [Discord](https://discord.gg/3EebYUyeUX), Support My Server Discord
 
-[Kaory Studios](https://kaorystudios.xyz), Support Kaoty Studios
-
-[Kaory Studios Discord](https://discord.gg/Gw7m8kC), Support Kaoty Studios
 
 ## Using:
 ```java

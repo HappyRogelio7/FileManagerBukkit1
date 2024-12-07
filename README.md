@@ -86,6 +86,13 @@ import org.bukkit.plugin.java.JavaPlugin;
 public class FileManager extends YamlConfiguration {
 
     /*
+     Code by: Happyuky7
+     Github: https://github.com/Happyuky7
+     License: MIT
+     Link: https://github.com/Happyuky7/FileManagerBukkit1
+     */
+
+    /*
     FileManager Link: https://github.com/Happyuky7/FileManagerBukkit1
     */
 
@@ -116,23 +123,6 @@ public class FileManager extends YamlConfiguration {
 
     public JavaPlugin getPlugin() {
         return this.plugin;
-    }
-
-    public String getColouredString(String path) {
-        String getted;
-        try {
-            getted = getString(path);
-        } catch (NullPointerException e) {
-            getted = path;
-        }
-        return ChatColor.translateAlternateColorCodes('&', getted);
-    }
-
-    public List<String> getColouredStringList(String path) {
-        List<String> f = new ArrayList<>();
-        for (String l : getStringList(path))
-            f.add(l.replace('&', '&'));
-        return f;
     }
 
     public <T> T get(Class<T> clazz, String path) {
@@ -183,6 +173,30 @@ public class FileManager extends YamlConfiguration {
             this.plugin.getLogger().log(Level.SEVERE, "Error:" + e.getMessage());
         }
     }
+
+    // You can remove this if you are using versions higher than 1.16, 
+    // soon I will implement a new improved FileManager stay tuned to the 
+    // Github repository: https://github.com/Happyuky7/FileManagerBukkit1
+    // START | Use only for legacy colors i.e. below Minecraft version 1.16.X
+    /*public String getColouredString(String path) {
+        String getted;
+        try {
+            getted = getString(path);
+        } catch (NullPointerException e) {
+            getted = path;
+        }
+        return ChatColor.translateAlternateColorCodes('&', getted);
+    }
+
+    public List<String> getColouredStringList(String path) {
+        List<String> f = new ArrayList<>();
+        for (String l : getStringList(path))
+            f.add(l.replace('&', '&'));
+        return f;
+    }*/
+    // END | Use only for legacy colors i.e. below Minecraft version 1.16.X
+
+
 }
 
 
